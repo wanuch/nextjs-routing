@@ -4,7 +4,6 @@ function SelectedClientProject() {
 
     const router = useRouter();
 
-    console.log(router.pathname);
     console.log(router.query);
 
     return <div>
